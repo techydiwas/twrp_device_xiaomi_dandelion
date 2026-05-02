@@ -7,6 +7,9 @@
 
 DEVICE_PATH := device/xiaomi/dandelion
 
+# OTA Assert
+TARGET_OTA_ASSERT_DEVICE := dandelion
+
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
