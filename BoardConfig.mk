@@ -124,3 +124,6 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_SKIP_COMPATIBILITY_CHECK := true
 TW_INCLUDE_RESETPROP := true
+
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
